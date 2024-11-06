@@ -27,7 +27,7 @@ for (int i = 0; i < sayilar.Length; i++)
 }
 yeniDizi[10] = yenisayi;
 
-Console.WriteLine("\nBüyükten küçüğe sıralanmış dizi:"); // Büyükten küçüğe sıralama
+ // Büyükten küçüğe sıralama
 Array.Sort(yeniDizi);
 Array.Reverse(yeniDizi);
 
