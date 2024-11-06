@@ -27,8 +27,12 @@ for (int i = 0; i < sayilar.Length; i++)
 }
 yeniDizi[10] = yenisayi;
 
+Console.WriteLine("\nBüyükten küçüğe sıralanmış dizi:"); // Büyükten küçüğe sıralama
+Array.Sort(yeniDizi);
+Array.Reverse(yeniDizi);
+
 // yeni diziyi ekrana yazdırma
-Console.WriteLine("\r\nEklenmiş Sayıyla girilen sayılar : ");
+Console.WriteLine("\r\nEklenmiş Sayıyla Büyükten küçüğe sıralanan sayılar : ");
 foreach (int j in yeniDizi)
 {
     Console.WriteLine($"Girilen Sayılar ==> {j} ");
